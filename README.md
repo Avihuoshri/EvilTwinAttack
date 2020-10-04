@@ -20,20 +20,19 @@ We choose which network we wish to impersonate to and become a third unknown par
 
 
 ### Software:
-Virtual box
-python
-scapy
-dnsmasq
-multiprocessing
-sys
-rpcbind
-hostapd
-apache
-airmon-ng
-airodump
-aireplay
-aircrack
-bc
+Virtual box <br>
+Python <br>
+Scapy <br>
+Dnsmasq <br>
+multiprocessing <br>
+sys <br>
+rpcbind <br>
+hostapd <br>
+Apache server <br>
+airmon-ng <br>
+airodump <br>
+aircrack <br>
+bc <br>
 
 
 special problems:
