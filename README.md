@@ -8,6 +8,8 @@ For our final project in Ariel University we have created a hacking tool based o
 We choose which network we wish to impersonate to and become a third unknown party where all the traffic between clients and that network goes through us, we have complete control and can decide whether to steal information quietly without any of the sides knowing about it, or redirecting the parties to where we want, or just disconnecting them from the internet.
 
 <img src="real_AP_connection.gif" width="600" height="350" >
+<img src="python_deauth.gif" width="600" height="350" >
+<img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
 
 Hardware:
 Laptop
