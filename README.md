@@ -58,9 +58,9 @@ test:
 # Second step :
   start terminal in root command and execute the next command:  python DeAuthAttack.py 
   enter commands in this order:
-  wlan1
-  wlan1
-  detect the BSSID of your desired network and, copy it, paste it
+  wlan1,
+  wlan1,
+  then detect the BSSID of your desired network and copy + paste it. <br>
   after a few seconds you should see planty packets, press ctrl C any time.
   detect the client mac address, copy it, paste it
   2
