@@ -57,6 +57,7 @@ test:
 
 # First step :
   git clone https://github.com/Avihuoshri/EvilTwinAttack.git
+  move the files IntelLogo.png, index.php and victim_passwords.txt to the folder /var/www/html.
 # Second step :
   start terminal in root command and execute the next command:  python DeAuthAttack.py 
   enter commands in this order:
