@@ -67,10 +67,10 @@ test:
   now wait until the specific user u decided on disconnects from the internet. <br>
   
   ### victim connects to the real password protected AP:
-  <img src="real_AP_connection.gif" width="600" height="350" >
+  <img src="gif files/real_AP_connection.gif" width="600" height="350" >
  
   ### victim disconnected from real AP and then connects to fake unprotected AP:
-  <img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
+  <img src="gif files/victim_reconnect_to_fa_ap.gif" width="600" height="350" >
 
 
   
@@ -78,11 +78,11 @@ test:
 start a new terminal and execute the command ./fake-ap-start.sh
 enter SSL password: "123456" to connect to websites like google , Facebook etc. (install SSL if neccessary)
 
-<img src="fake_ap_creation.gif" width="600" height="350" >
+<img src="gif files/fake_ap_creation.gif" width="600" height="350" >
 
 # Fourth step - 
 You can find the password file in /var/www/html/victim_password.txt path <br>
-<img src="victim_passowrd.gif" width="600" height="350" >
+<img src="gif files/victim_passowrd.gif" width="600" height="350" >
 
 
 
