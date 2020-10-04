@@ -66,8 +66,8 @@ test:
   wlan1,
   then detect the BSSID of your desired network and copy + paste it. <br>
   after a few seconds you should see planty of packets, press ctrl C at any time. <br>
-  detect the client mac address copy + paste it
-  2
+  detect the client mac address copy + paste it 
+  decide how many packets you want to send (2 should be enough
   now wait until the specific user u decided on disconnects from the internet.
   
   <img src="real_AP_connection.gif" width="600" height="350" >
