@@ -13,14 +13,14 @@ We choose which network we wish to impersonate to and become a third unknown par
 
 <img src="python_deauth.gif" width="600" height="350" >
 
-Hardware:
-Laptop
-Tenda Wireless N150 High-Power USB Adapter 
-TP LINK Wn722n wifi adapter
-Operation system:
-Kali
+### Hardware:
+💻 Laptop <br>
+📡 Tenda Wireless N150 High-Power USB Adapter / TP LINK Wn722n wifi adapter / any other WIFI adapter that suportt Monitor mode 
+   and packet injecting <br>
+⚡ Operation system: 🐲 Kali linux
 
-Software:
+
+### Software:
 Virtual box
 python
 scapy
@@ -80,7 +80,6 @@ test:
 
 
   
-### - 
 # Third step : 
 start a new terminal and execute the command ./fake-ap-start.sh
 enter SSL password: "123456" to connect to websites like google , Facebook etc. (install SSL if neccessary)
@@ -88,13 +87,8 @@ enter SSL password: "123456" to connect to websites like google , Facebook etc. 
 <img src="fake_ap_creation.gif" width="600" height="350" >
 
 # Fourth step - 
-You can find the password file in /vat/www/html/victim_password.txt path
+You can find the password file in /var/www/html/victim_password.txt path <br>
 <img src="victim_passowrd.gif" width="600" height="350" >
-Fifth step
-Sixth step
-Seventh step
-Sixth step
-Sixth step
-<br><br>
+
 
 
