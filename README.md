@@ -69,7 +69,7 @@ test:
 ### - 
 # Third step : 
 start a new terminal and execute the command ./fake-ap-start.sh
-enter password: "123456"
+enter SSL password: "123456"
 
 # Fourth step - 
 Fifth step
