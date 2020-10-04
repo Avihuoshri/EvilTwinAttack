@@ -53,7 +53,8 @@ test:
 # First step :
   git clone https://github.com/Avihuoshri/EvilTwinAttack.git
 # Second step :
-  start terminal in root command and execute the next command: ### python DeAuthAttack.py 
+  start terminal in root command and execute the next command:  python DeAuthAttack.py 
+### - 
 # Third step : 
    execute the command: "python attack.py"
 # Fourth step - 
