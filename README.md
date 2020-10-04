@@ -50,17 +50,15 @@ We then redirect all traffic from the clients to the Network.
 
 test:
 
-1. First step 
-clone the project from github
-1. Second step
-
-1. Third step
-1. Fourth step
-1. Fifth step
-1. Sixth step
-1. Seventh step
-1. Sixth step
-1. Sixth step
+# First step - git clone https://github.com/Avihuoshri/EvilTwinAttack.git
+# Second step - start terminal 
+# Third step - write "python attack.py"
+Fourth step
+Fifth step
+Sixth step
+Seventh step
+Sixth step
+Sixth step
 <br><br>
 
 
