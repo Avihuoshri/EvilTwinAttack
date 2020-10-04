@@ -57,9 +57,21 @@ test:
   git clone https://github.com/Avihuoshri/EvilTwinAttack.git
 # Second step :
   start terminal in root command and execute the next command:  python DeAuthAttack.py 
+  enter commands in this order:
+  wlan1
+  wlan1
+  detect the BSSID of your desired network and, copy it, paste it
+  after a few seconds you should see planty packets, press ctrl C any time.
+  detect the client mac address, copy it, paste it
+  2
+  now wait until the specific user u decided on disconnects from the internet
+  n
+  n
+  n
+  n
 ### - 
 # Third step : 
-   execute the command: "python attack.py"
+
 # Fourth step - 
 Fifth step
 Sixth step
