@@ -56,7 +56,7 @@ We then redirect all traffic from the clients to the Network.
 test:
 
 # First step :
-  git clone https://github.com/Avihuoshri/EvilTwinAttack.git
+  git clone https://github.com/Avihuoshri/EvilTwinAttack.git <br>
   move the files IntelLogo.png, index.php and victim_passwords.txt to the folder /var/www/html.
 # Second step :
   start terminal in root command and execute the next command:  python DeAuthAttack.py 
