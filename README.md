@@ -61,14 +61,11 @@ test:
   wlan1,
   wlan1,
   then detect the BSSID of your desired network and copy + paste it. <br>
-  after a few seconds you should see planty packets, press ctrl C any time.
-  detect the client mac address, copy it, paste it
+  after a few seconds you should see planty of packets, press ctrl C at any time. <br>
+  detect the client mac address copy + paste it
   2
-  now wait until the specific user u decided on disconnects from the internet
-  n
-  n
-  n
-  n
+  now wait until the specific user u decided on disconnects from the internet, write & enter "n" 4 times
+  
 ### - 
 # Third step : 
 
