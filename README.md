@@ -64,10 +64,12 @@ test:
   after a few seconds you should see planty of packets, press ctrl C at any time. <br>
   detect the client mac address copy + paste it
   2
-  now wait until the specific user u decided on disconnects from the internet, write & enter "n" 4 times
+  now wait until the specific user u decided on disconnects from the internet.
   
 ### - 
 # Third step : 
+start a new terminal and execute the command ./fake-ap-start.sh
+enter password: "123456"
 
 # Fourth step - 
 Fifth step
