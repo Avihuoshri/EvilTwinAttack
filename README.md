@@ -10,7 +10,7 @@ We choose which network we wish to impersonate to and become a third unknown par
 <img src="real_AP_connection.gif" width="600" height="350" >
 <img src="python_deauth.gif" width="600" height="350" >
 <img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
-<img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
+<img src="victim_passowrd.gif" width="600" height="350" >
 
 
 Hardware:
