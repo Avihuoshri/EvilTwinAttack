@@ -9,7 +9,6 @@ We choose which network we wish to impersonate to and become a third unknown par
 
 <img src="python_deauth.gif" width="600" height="350" >
 <img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
-<img src="victim_passowrd.gif" width="600" height="350" >
 
 
 Hardware:
@@ -58,7 +57,8 @@ test:
 
 # First step :
   git clone https://github.com/Avihuoshri/EvilTwinAttack.git <br>
-  move the files IntelLogo.png, index.php and victim_passwords.txt to the folder /var/www/html.
+  move the files IntelLogo.png, index.php and victim_passwords.txt to the folder /var/www/html. <br>
+  ###(copy all existing file in the original html directory to new html_copy directory)
 # Second step :
   start terminal in root command and execute the next command:  python DeAuthAttack.py 
   enter commands in this order:
@@ -76,9 +76,11 @@ test:
 ### - 
 # Third step : 
 start a new terminal and execute the command ./fake-ap-start.sh
-enter SSL password: "123456" to connect to websites like google (install SSL if neccessary)
+enter SSL password: "123456" to connect to websites like google , Facebook etc. (install SSL if neccessary)
 
 # Fourth step - 
+You can find the password file in /vat/www/html/victim_password.txt path
+<img src="victim_passowrd.gif" width="600" height="350" >
 Fifth step
 Sixth step
 Seventh step
