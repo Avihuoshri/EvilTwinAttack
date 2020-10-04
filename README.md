@@ -30,8 +30,8 @@ rpcbind <br>
 hostapd <br>
 Apache server <br>
 airmon-ng <br>
-airodump <br>
-aircrack <br>
+airodump - only for bonus handshake capture!! <br>
+aircrack - only for bonus handshake capture!! <br>
 bc <br>
 
 
