@@ -1,6 +1,6 @@
-# created by Avihu, Daniel and Din.
+# Created by Avihu, Daniel and Din.
 
-for educational Purposes only! we take no responsibility or We take no responsibility or liability of any kind from the use of this program
+For educational Purposes only! we take no responsibility or We take no responsibility/liability of any kind from the use of this program.
 
 Explaination:
 For our final project in Ariel University we have created a hacking tool based on the "evil-twin attack" concept.
