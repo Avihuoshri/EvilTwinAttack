@@ -8,7 +8,7 @@ For educational Purposes only! we take no responsibility/liability of any kind f
 Dont use this program on any network that isn't yours and use at your own risk.
 
 Explaination:
-For our final project in Ariel University we have created a hacking tool based on the "evil-twin attack" concept.
+For our final project in Ariel University we have created a hacking tool based on the "evil-twin attack" concept.<br>
 We choose which network we wish to impersonate to and become a third unknown party where all the traffic between clients and that network goes through us, we have complete control and can decide whether to steal information quietly without any of the sides knowing about it, or redirecting the parties to where we want, or just disconnecting them from the internet.
 
 
