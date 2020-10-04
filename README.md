@@ -8,7 +8,6 @@ For our final project in Ariel University we have created a hacking tool based o
 We choose which network we wish to impersonate to and become a third unknown party where all the traffic between clients and that network goes through us, we have complete control and can decide whether to steal information quietly without any of the sides knowing about it, or redirecting the parties to where we want, or just disconnecting them from the internet.
 
 <img src="python_deauth.gif" width="600" height="350" >
-<img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
 
 
 Hardware:
@@ -68,9 +67,14 @@ test:
   after a few seconds you should see planty of packets, press ctrl C at any time. <br>
   detect the client mac address copy + paste it 
   decide how many packets you want to send (2 should be enough
-  now wait until the specific user u decided on disconnects from the internet.
+  now wait until the specific user u decided on disconnects from the internet. <br>
   
+  ### victim connects to the real password protected AP:
   <img src="real_AP_connection.gif" width="600" height="350" >
+ 
+  ### victim disconnected from real AP and then connects to fake unprotected AP:
+  <img src="victim_reconnect_to_fa_ap.gif" width="600" height="350" >
+
 
   
 ### - 
