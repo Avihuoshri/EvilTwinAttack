@@ -1,4 +1,8 @@
-# Created by Avihu, Daniel and Din.
+# 💀Evil twin attack💀
+# Created by: 
+### 🙊Avihu Oshri
+### 🙉Daniel Ventura 
+### 🙈Din Avrunin
 
 For educational Purposes only! we take no responsibility/liability of any kind from the use of this program.
 Dont use this program on any network that isn't yours and use at your own risk.
@@ -8,7 +12,6 @@ For our final project in Ariel University we have created a hacking tool based o
 We choose which network we wish to impersonate to and become a third unknown party where all the traffic between clients and that network goes through us, we have complete control and can decide whether to steal information quietly without any of the sides knowing about it, or redirecting the parties to where we want, or just disconnecting them from the internet.
 
 <img src="python_deauth.gif" width="600" height="350" >
-
 
 Hardware:
 Laptop
@@ -81,6 +84,8 @@ test:
 # Third step : 
 start a new terminal and execute the command ./fake-ap-start.sh
 enter SSL password: "123456" to connect to websites like google , Facebook etc. (install SSL if neccessary)
+
+<img src="fake_ap_creation.gif" width="600" height="350" >
 
 # Fourth step - 
 You can find the password file in /vat/www/html/victim_password.txt path
