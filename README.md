@@ -35,14 +35,10 @@ aircrack <br>
 bc <br>
 
 
-special problems:
-we had issues with configuring wlan0 interface to monitor mode via virtualbox so we used a special set of commands for that:
+## special problems:
+we had issues with configuring TP LINK WN722N VERSION3 interface to monitor mode so we used a special set of commands to fix this issue int file MonitorMode.sh in the file section 
 
-iptables --flush
-iptables --table nat --flush
-iptables --delete-chain
-iptables --table nat --deleyte-chain
-iptables -P FORWARD ACCEPT
+
 
 How is it done:
 We first search for a network, we use airodump to find details about that network like BSSID,ESSID,Channel and such.
