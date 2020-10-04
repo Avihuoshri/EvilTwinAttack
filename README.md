@@ -69,7 +69,7 @@ test:
 ### - 
 # Third step : 
 start a new terminal and execute the command ./fake-ap-start.sh
-enter SSL password: "123456"
+enter SSL password: "123456" to connect to websites like google
 
 # Fourth step - 
 Fifth step
