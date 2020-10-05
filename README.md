@@ -80,7 +80,7 @@ enter SSL password: "123456" to connect to websites like google , Facebook etc. 
 
 <img src="gif files/fake_ap_creation.gif" width="600" height="350" >
 
-when you want to stop the hostapd and dnsmasq service execute ./fake-ap-stop.sh tho stop all the services that use the attack (also recomended to do that when you get an error thar "port already in use")
+when you want to stop the hostapd and dnsmasq services execute ./fake-ap-stop.sh to stop all the services that use the attack (also recomended to do that when you get "port already in use" error  )
 
 # Fourth step - 
 You can find the password file in /var/www/html/victim_password.txt path <br>
